@@ -1,0 +1,22 @@
+[project]
+name = "rail-defect-detector"
+version = "0.1.0"
+description = "Rail surface defect detector"
+readme = "README.md"
+authors = [
+    { name = "Supermanljz", email = "54873717+Supermanljz@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+rail-defect-detector = "rail_defect_detector:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# 数据集（体积大，不进 Git，两台机器通过网盘/硬盘同步）
+rail_defect_dataset/images/
+rail_defect_dataset/labels/
+rail_defect_dataset/reports/
+
+# 训练产物与模型权重
+runs/
+*.pt
+
+# 系统杂项
+.DS_Store
+Thumbs.db

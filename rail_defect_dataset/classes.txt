@@ -1,0 +1,11 @@
+running_surface
+contact_band
+dark_contact_band
+spalling
+crack
+corrugation
+grinding
+fastening
+spike_screw
+set_screw
+indentation

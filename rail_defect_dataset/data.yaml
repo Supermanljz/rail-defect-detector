@@ -1,0 +1,22 @@
+# YOLOv5/v8 训练配置
+# 注意：路径相对于本文件所在目录；训练时也可改为绝对路径
+
+train: ./images/train
+val: ./images/test
+
+# 类别数（不含 Burning / Welded Joint，样本过少不参与训练）
+nc: 11
+
+# 类别顺序与 classes.txt 一致，id 即行号（从 0 开始），一旦开训不可更改
+names:
+  0: running_surface
+  1: contact_band
+  2: dark_contact_band
+  3: spalling
+  4: crack
+  5: corrugation
+  6: grinding
+  7: fastening
+  8: spike_screw
+  9: set_screw
+  10: indentation
